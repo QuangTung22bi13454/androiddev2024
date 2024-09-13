@@ -12,3 +12,5 @@ Student Info
 
 * Name: *Le Quang Tung*
 * ID: *22bi13454*
+* Group ID: *9*
+* Project name: *Flight info*
