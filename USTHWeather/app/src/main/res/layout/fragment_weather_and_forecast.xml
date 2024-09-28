@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weather_forecast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#3944BC">
+
+        <TextView
+            android:id="@+id/item1"
+            android:contentDescription="@string/usth_weather"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:gravity="start | center"
+            android:text="@string/usth_weather"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ReloadButton1"
+            android:contentDescription="@string/reload"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/frame_reload"
+            android:gravity="center"
+            android:background="#3944BC"
+            app:tint="@android:color/white" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            />
+        <ImageButton
+            android:id="@+id/Settingbutton1"
+            android:contentDescription="@string/setting"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/settings_24px"
+            android:gravity="center"
+            android:background="#3944BC"
+            app:tint="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Container for WeatherFragment -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="470dp"
+        android:background="#E6FDF5"
+        android:orientation="vertical"
+        android:focusable="false"
+        tools:context=".WeatherFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/_12c_cloudy"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="300dp"
+            android:text="@string/paris"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/filter_dramacloud_40px"
+            app:tint="#3944BC" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/frame"
+            android:src="@drawable/transparentframe"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+
+    </FrameLayout>
+
+    <!-- Container for ForecastFragment -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        tools:context="ForecastFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/Monday"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/foggy_40px"
+                app:tint="#FF007F"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/foggy_24c_30c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/tue"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/sunny"
+                app:tint="#FF007F"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/sunny_30c_37c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/wed"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/weather_mix_40px"
+                app:tint="#FF007F"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/weather_mix_18c_23c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/thu"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/rainy_heavy_40px"
+                app:tint="#FF007F"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/heavy_rain_25c_28c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/fri"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/rainy_snow_40px"
+                app:tint="#FF007F"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/snowing_5c_2c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/sat"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/weather_snowy_40px"
+                app:tint="#FF007F"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/cloudy_snow_7c_2c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#D2E0FF">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/sun"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/type_of_weather"
+                android:gravity="center"
+                android:src="@drawable/thunderstorm_40px"
+                app:tint="#FF007F"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/thunderstorm_20c_27c"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#D2E0FF"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USTH Thời tiết</string>
+    <string name="action_settings">Cài đặt</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Phân đoạn đầu tiên</string>
+    <string name="second_fragment_label">Phân đoạn thứ hai</string>
+    <string name="next">Tiếp theo</string>
+    <string name="previous">Trước</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Xin chào phân đoạn trống</string>
+    <string name="temperature">nhiệt độ</string>
+    <string name="thursday">Thứ Năm</string>
+    <string name="weather_icon">Biểu tượng thời tiết</string>
+    <string name="monday">Thứ Hai</string>
+    <string name="usth_weather">USTH Thời tiết</string>
+    <string name="settings">Cài đặt</string>
+    <string name="reload">Tải lại</string>
+    <string name="Monday">T2</string>
+    <string name="foggy_n24c_30c">Sương mù_n24c_30c</string>
+    <string name="tue">Thứ Ba</string>
+    <string name="wed">Thứ Tư</string>
+    <string name="thu">Thứ Năm</string>
+    <string name="fri">Thứ Sáu</string>
+    <string name="sat">Thứ Bảy</string>
+    <string name="sun">Chủ Nhật</string>
+    <string name="sunny_30c_37c">Nắng 30c->37c</string>
+    <string name="weather_mix_18c_23c">Thời tiết hỗn hợp 18c->23c</string>
+    <string name="rainy_heavy_25c_28c">Mưa to 25c->28c</string>
+    <string name="heavy_rain_25c_28c">Mưa lớn 25c->28c</string>
+    <string name="cloudy_snow_7c_2c">Có mây, tuyết rơi -7c-> -2c</string>
+    <string name="thunderstorm_20c_27c">Bão giông 20c->27c</string>
+    <string name="snowing_5c_2c">Tuyết rơi -5c->2c</string>
+    <string name="foggy_24c_30c">Sương mù 24c->30c</string>
+    <string name="hello_world">Xin chào thế giới</string>
+    <string name="_12c_cloudy">12C Có mây</string>
+    <string name="paris">Paris</string>
+    <string name="type_of_weather">Loại thời tiết</string>
+    <string name="setting">Cài đặt</string>
+    <string name="city_weather">Thời tiết thành phố</string>
+</resources>
