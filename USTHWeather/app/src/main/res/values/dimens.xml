@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_width">297dp</dimen>
+    <dimen name="table_height">578dp</dimen>
+    <dimen name="row_height">43dp</dimen>
+    <dimen name="day_width">100dp</dimen>
+    <dimen name="day_height">58dp</dimen>
+    <dimen name="day_padding">20dp</dimen>
+    <dimen name="icon_width">39dp</dimen>
+    <dimen name="column_margin_left">30dp</dimen>
+    <dimen name="column_padding">5dp</dimen>
+    <dimen name="frame_height">211dp</dimen>
+    <dimen name="frame_margin_top">40dp</dimen>
+    <dimen name="image_width">197dp</dimen>
+    <dimen name="image_height">162dp</dimen>
+    <dimen name="image_margin">60dp</dimen>
+    <dimen name="image_margin_bottom">15dp</dimen>
+    <dimen name="weather_margin">20dp</dimen>
+    <dimen name="location_margin">2dp</dimen>
+</resources>

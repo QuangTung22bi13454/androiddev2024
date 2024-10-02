@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">USTHWeather</string>
+    <string name="title_activity_weather">USTH Thời tiết</string>
+    <string name="cloudy">ít mây</string>
+    <string name="cloudy_temp">24C - 30C</string>
+    <string name="showers">mưa</string>
+    <string name="showers_temp">24C - 26C</string>
+    <string name="thunder">sấm</string>
+    <string name="thunder_temp">24C - 25C</string>
+    <string name="location">Paris</string>
+    <string name="monday">thứ hai</string>
+    <string name="tuesday">thứ ba</string>
+    <string name="wednesday">thứ tư</string>
+    <string name="thursday">thứ năm</string>
+    <string name="friday">thứ sáu</string>
+    <string name="saturday">thứ bảy</string>
+    <string name="sunday">chủ nhật</string>
+</resources>
